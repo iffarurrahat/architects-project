@@ -113,7 +113,7 @@ nav > ul > li a {
 }
 .arch__box:hover {
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-    color: orange;
+    background-color: #f9f9f9;
 }
 .arch__box h4{
     font-size: 20px;
@@ -243,14 +243,16 @@ footer{
     .team__images > img{
         width: 100%;
     }
-    .team__img__wrap{
+    .team__img__wrap img:hover {
+        -webkit-transform: scale(1.2) rotate(1deg);
+        transform: scale(1.2) rotate(1deg);
+    }
+    .team__img__wrap img {
+        -webkit-transition: all .3s ease;
+        transition: all .3s ease;
+    }
+    .team__img__wrap {
         overflow: hidden;
-    }
-    .team__img__wrap img{
-        transition: all .5s;
-    }
-    .team__img__wrap:hover img{
-        transform: scale(1.1, 1.1);
     }
     .architect__image > img{
         width: 80%;
