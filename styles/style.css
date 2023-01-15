@@ -132,7 +132,7 @@ nav > ul > li a {
 .btn__exta--top{
     position: absolute;
     left: -7%;
-    bottom: 0;
+    bottom: 8%;
 }
 .btn__exta--top{
    padding: 1.8rem 1.3rem;
@@ -211,11 +211,11 @@ footer{
     gap: 4rem;
     padding: 1rem;
 }
-.footer__wrap h2, img, p, .footer__icons{
+.footer__wrap h2, .footer__logo, p, .footer__icons{
     margin-bottom: 1.5rem;
 }
 .footer__wrap li {
-    margin-bottom: 0.8rem;
+    margin-bottom: 1rem;
 }
 .footer__list{
     display: flex;
@@ -271,8 +271,14 @@ footer{
     }
     .team__images > img{
         width: 100%;
+        position: relative;
     }
-
+    .img__overlay{
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background-color: red;
+    }
     .architect__image > img{
         width: 80%;
     }
