@@ -96,6 +96,13 @@ nav > ul > li a {
     gap: 24px;
     margin-right: 74px;
 }
+.team--quick{
+    color: var(--dark-gray);
+    font-weight: 400;
+}
+.team--feat{
+    color: var(--orange);
+}
 /* architect section style */
 .architect{
     display: flex;
@@ -271,13 +278,6 @@ footer{
     }
     .team__images > img{
         width: 100%;
-        position: relative;
-    }
-    .img__overlay{
-        position: absolute;
-        height: 100%;
-        width: 100%;
-        background-color: red;
     }
     .architect__image > img{
         width: 80%;
