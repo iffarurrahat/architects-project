@@ -201,6 +201,17 @@ nav > ul > li a {
 .map__section iframe {
     width: 100%;
     vertical-align: middle;
+    filter: grayscale(100%);
+}
+/* conatct style */
+.input__cls{
+    padding: 8px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
 /* footer styles */
 footer{
@@ -243,8 +254,7 @@ footer{
     text-align: center;
 }
 
-
-
+/* media query */
 @media only screen and (max-width: 576px) {
     section{
         margin: 25px 0 70px;
